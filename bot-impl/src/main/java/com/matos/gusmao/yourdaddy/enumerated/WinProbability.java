@@ -1,4 +1,4 @@
-package com.matos.gusmao.wekabot.enumerated;
+package com.matos.gusmao.yourdaddy.enumerated;
 
 public enum WinProbability {
     GUARANTEED_WIN,

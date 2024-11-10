@@ -1,10 +1,13 @@
-package com.matos.gusmao.wekabot;
+package com.matos.gusmao.yourdaddy;
 
 import com.bueno.spi.model.CardToPlay;
 import com.bueno.spi.model.GameIntel;
 import com.bueno.spi.service.BotServiceProvider;
+import com.matos.gusmao.yourdaddy.enumerated.WinProbability;
 
-public class WekaBot implements BotServiceProvider {
+public class YourDaddy implements BotServiceProvider {
+    private WinProbability winProbability;
+
     @Override
     public boolean getMaoDeOnzeResponse(GameIntel intel) {
         return false;
