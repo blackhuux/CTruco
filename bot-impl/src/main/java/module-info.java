@@ -63,6 +63,7 @@ import com.adivic.octopus.Octopus;
 import com.eduardo.vinicius.camaleaotruqueiro.CamaleaoTruqueiro;
 import com.bianca.joaopedro.lgtbot.Lgtbot;
 import com.fernando.breno.trucomarrecobot.TrucoMarreco;
+import com.matos.gusmao.wekabot.WekaBot;
 
 module bot.impl {
     requires bot.spi;
